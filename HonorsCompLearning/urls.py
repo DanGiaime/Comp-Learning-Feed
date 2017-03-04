@@ -18,5 +18,6 @@ from django.contrib import admin
 from CompLearningApp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index)
+    url(r'^$', views.index),
+    url(r'^add_event/', views.add_event),
 ]
